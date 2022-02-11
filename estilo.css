@@ -1,0 +1,91 @@
+/* Global ========================= */
+:root {
+    --body-bg-cor: #FAF7FD;
+    --roxo: #BB99DD;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background: var(--body-bg-cor);
+    font-family: 'Poppins', sans-serif;
+}
+
+a {
+    display: flex;
+    justify-content: center;
+    color: var(--roxo);
+    text-decoration: none;
+}
+
+li {
+    font-weight: bold;
+    list-style: none;
+}
+
+/* Container ========================= */
+.container {
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+/* Caixa ========================= */
+.caixa {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.links li {
+    width: 20.375rem;
+    height: 3.063rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    border: 2px solid #BB99DD;
+    border-radius: 0.2rem;
+    margin: 1rem;
+}
+
+.links a {
+    padding: .5rem;
+}
+
+.links ul {
+    margin: 2rem 0 3rem 0;
+}
+
+.redes-sociais ul {
+    display: flex;
+    gap: 2rem;
+}
+
+/* Foto perfil ========================= */
+
+.perfil {
+    background: url(imgs/perfil.png) no-repeat;
+    background-position: -50px -15px;
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+}
+
+.esfera {
+    width: 213px;
+    height: 213px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    border: 2px solid #BB99DD;
+    border-radius: 50%;
+    margin-bottom: 1rem;
+}
