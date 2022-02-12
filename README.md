@@ -7,7 +7,7 @@ Social Tree é uma aplicação web front-end lançada como desafio para os aluno
 
 A aplicação tem uma lista de links que tem como objetivo direcionar o usuário para o local escolhido.
 
-Design da aplicação no figma: <a href="https://www.figma.com/file/yvjtXi0LKjRLP7jqSD99zX/DD-%2F-Social-links-(Copy)?node-id=0%3A1" target="_blank">Design</a>
+Design da aplicação no figma: <a href="https://www.figma.com/file/yvjtXi0LKjRLP7jqSD99zX/DD-%2F-Social-links-(Copy)?node-id=0%3A1">Design</a>
 
 ## Layout web
 <img src="https://github.com/DiegooRSouza/assets/blob/main/layout-web.png" alt="layoutweb" width="700"/>
